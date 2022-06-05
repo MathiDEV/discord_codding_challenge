@@ -1,0 +1,27 @@
+{
+    "title": "Find Pair",
+    "difficulty": "hard",
+    "description": "Given `int *array` of `int len` length and a `int sum`, print line by line all possibles pairs in array that leads to the sum (don't print anything if no pairs found).\n\n**Example:** Given `array = [8, 7, 2, 5, 3, 1]` and `sum = 10`\nOutput: ```8-2\n7-3``` (end with linebreak)",
+    "allowed_functions": [
+        "malloc",
+        "free"
+    ],
+    "proto": "int len, int array[], int sum",
+    "asserts": [
+        {
+            "args": "6, (int[]){8, 7, 2, 5, 3, 1}, 10",
+            "stdout": "8-2\n7-3\n",
+            "return": 0
+        },
+        {
+            "args": "6, (int[]){5, 2, 6, 8, 1, 9}, 12",
+            "stdout": "",
+            "return": 0
+        },
+        {
+            "args": "8, (int[]){3, 2, 4, 3, 8, 7, 1, 5}, 6",
+            "stdout": "3-3\n2-4\n1-5\n",
+            "return": 0
+        }
+    ]
+}

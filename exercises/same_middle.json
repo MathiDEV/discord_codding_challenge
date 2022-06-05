@@ -1,0 +1,34 @@
+{
+    "title": "Same middle digit",
+    "difficulty": "easy",
+    "description": "Given `int a` and `int b` (two odd lengthed positives integers) return 1 if their middle digit is the same.\n\n**Example :** 123[4]531 and 123[4]532 have the same middle digit.",
+    "allowed_functions": [
+        "malloc",
+        "sprintf",
+        "strlen",
+        "strcmp"
+    ],
+    "proto": "int a, int b",
+    "asserts": [
+        {
+            "args": "12221, 13331",
+            "stdout": "",
+            "return": 0
+        },
+        {
+            "args": "12345, 54321",
+            "stdout": "",
+            "return": 1
+        },
+        {
+            "args": "123, 123",
+            "stdout": "",
+            "return": 1
+        },
+        {
+            "args": "111, 222",
+            "stdout": "",
+            "return": 0
+        }
+    ]
+}

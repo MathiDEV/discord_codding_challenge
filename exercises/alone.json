@@ -1,0 +1,22 @@
+{
+    "title": "Who's Alone",
+    "difficulty": "easy",
+    "description": "Given a `int len`, `int *numbers`, return the only number that does'nt appear twice in the array.",
+    "allowed_functions": [
+        "malloc",
+        "free"
+    ],
+    "proto": "int len, int numbers[]",
+    "asserts": [
+        {
+            "args": "7, (int[]){1, 1, 2, 2, 3, 3, 4}",
+            "stdout": "",
+            "return": 4
+        },
+        {
+            "args": "5, (int[]){1, 2, 3, 1, 2}",
+            "stdout": "",
+            "return": 3
+        }
+    ]
+}

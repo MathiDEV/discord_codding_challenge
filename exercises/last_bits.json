@@ -1,0 +1,34 @@
+{
+    "title": "Last Bits",
+    "difficulty": "medium",
+    "description": "Given `int n`:\n- If it's two last bits are `00` return 0\n- If it's two last bits are `01` return 1\n- If it's two last bits are `10` return 2\n- If it's two last bits are `11` return 3",
+    "allowed_functions": [],
+    "proto": "int n",
+    "asserts": [
+        {
+            "args": "0",
+            "stdout": "",
+            "return": 0
+        },
+        {
+            "args": "25",
+            "stdout": "",
+            "return": 1
+        },
+        {
+            "args": "254",
+            "stdout": "",
+            "return": 2
+        },
+        {
+            "args": "27",
+            "stdout": "",
+            "return": 3
+        },
+        {
+            "args": "1200",
+            "stdout": "",
+            "return": 0
+        }
+    ]
+}

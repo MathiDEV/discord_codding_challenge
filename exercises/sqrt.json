@@ -1,0 +1,29 @@
+{
+    "title": "Sqrt",
+    "difficulty": "medium",
+    "description": "Given a non-negative `int x`, compute and return a int approximation of the square root of x.",
+    "allowed_functions": [],
+    "proto": "int x",
+    "asserts": [
+        {
+            "args": "36",
+            "stdout": "",
+            "return": 6
+        },
+        {
+            "args": "128",
+            "stdout": "",
+            "return": 11
+        },
+        {
+            "args": "15",
+            "stdout": "",
+            "return": 3
+        },
+        {
+            "args": "256",
+            "stdout": "",
+            "return": 16
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "title": "Who's Alone",
+    "difficulty": "easy",
+    "description": "Given a `char *a`, `char *b`, print the longgest common prefix that appears in the two strings.",
+    "allowed_functions": [
+        "printf",
+        "write",
+        "putchar",
+        "puts"
+    ],
+    "proto": "char *a, char *b",
+    "asserts": [
+        {
+            "args": "\"abc\", \"abcd\"",
+            "stdout": "abc",
+            "return": 0
+        },
+        {
+            "args": "\"salut\", \"salope\"",
+            "stdout": "sal",
+            "return": 0
+        },
+        {
+            "args": "\"EPITECH\", \"TEKPI\"",
+            "stdout": "",
+            "return": 0
+        },
+        {
+            "args": "\"123456\", \"123456\"",
+            "stdout": "123456",
+            "return": 0
+        }
+    ]
+}

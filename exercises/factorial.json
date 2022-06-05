@@ -1,0 +1,34 @@
+{
+    "title": "Factorial",
+    "difficulty": "easy",
+    "description": "Write up a function that return the factorial of given `int nb`.\n\n**Example:** `4! = 24`",
+    "allowed_functions": [],
+    "proto": "int nb",
+    "asserts": [
+        {
+            "args": "0",
+            "stdout": "",
+            "return": 1
+        },
+        {
+            "args": "1",
+            "stdout": "",
+            "return": 1
+        },
+        {
+            "args": "2",
+            "stdout": "",
+            "return": 2
+        },
+        {
+            "args": "4",
+            "stdout": "",
+            "return": 24
+        },
+        {
+            "args": "5",
+            "stdout": "",
+            "return": 120
+        }
+    ]
+}

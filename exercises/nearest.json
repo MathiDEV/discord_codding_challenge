@@ -1,0 +1,35 @@
+{
+    "title": "Hundred nearest",
+    "difficulty": "easy",
+    "description": "Given `int a` and `int b`, return the nearest to the value 100. Return 0 if the two numbers are equal or have the same distance.",
+    "allowed_functions": [],
+    "proto": "int a, int b",
+    "asserts": [
+        {
+            "args": "78, 95",
+            "stdout": "",
+            "return": 95
+        },
+        {
+            "args": "95, 95",
+            "stdout": "",
+            "return": 0
+        },
+        {
+            "args": "99, 70",
+            "stdout": "",
+            "return": 99
+        },
+        {
+            "args": "101, 99",
+            "stdout": "",
+            "return": 0
+        },
+        {
+            "args": "101, 50",
+            "stdout": "",
+            "return": 101
+        }
+
+    ]
+}

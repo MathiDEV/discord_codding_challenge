@@ -1,0 +1,20 @@
+{
+    "bot_token": "",
+    "channel": "",
+    "schedule": "schedule.json",
+    "exercises": "exercises",
+    "hour": 14,
+    "after_win": 5,
+    "messages": {
+        "win": ":star: Contratulations! {mention} you passed the test!\n\n_The correction will stay open for {after_win} minutes._",
+        "error": ":x: {mention} you failed the test.\n\n**Message:** {message}",
+        "exercise": "{badge} **{title}**\n\n**Subject:** {description}",
+        "wait": ":x: {mention} You already submitted your code, wait for a result first !",
+        "winner_already": ":clap: {mention} Your code is perfect ! Unfortunately someone already wins... You'll be faster next time !"
+    },
+    "badges": {
+        "easy": ":green_circle:",
+        "medium": ":yellow_circle:",
+        "hard": ":red_circle:"
+    }
+}
